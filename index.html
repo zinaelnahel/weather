@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+       </br> 
+    <h1>
+    <img class="Ra" src="images/Ra.jpg" alt="Ra god" width="150"/>  <img class="logo" src="images/logo_small.png" alt="logo" width="120"/>
+    <h4><em>May the sun god be in your favor !</em></h4>
+          <br>
+          <br>
+         <form id="search-form">
+        <input type="text" placeholder="Enter a city" id="city" />
+        <input
+        type="submit"
+        value="Search"/>
+        <button id="btnLocation">Current Location</button></span>
+    
+         </form>
+          </br>
+  </br>
+  <div class="row row-cols-md-2 row-cols-md-3 g-1">
+      <div class="col">
+        
+        <div class="card h-100">
+     
+          <div class="card-body">
+            <h5 class="card-title" id= "cityName">Cairo/Egypt 
+            </br>
+            </br></h5>
+            <h6> Today </h6>
+            <p class="card-text">🌡️
+                <span class="temperature" id="current-temperature">19</span>
+                <span class="units"id="description">
+                  <a href="#" id="celsius-button">°C</a> |
+                  <a href="#" id="fahrenheit-button">°F</a></span
+                >
+            </br>🌧️
+          </br> precipitation 23%
+        </br>
+          </br>🌬️ </br> wind  15km/h
+        </br>
+         </br> 
+            </p>
+          </div>
+        </div>
+      </div>
+    <div class="card">
+  <div class="row">
+    </div>
+    <div class="col-md-12">
+      <div class="card-body">
+        <h5 class="card-title">Forecast</h5>
+        <p class="card-text"> 
+        <div class="row">
+        <div class="col">Sunday 
+        </br>
+        🌡</br> 18 °C
+               </br>
+               </br>🌧️
+          </br> 23%
+        </br>
+        </br>
+          </br>🌬️ </br>  15km/h
+        </br>
+      </br> 
+        </div>
+        
+        <div class="col">Monday
+        </br>
+        🌡️
+              </br> 19 °C
+               </br>
+               </br>🌧️
+          </br> 23%
+        </br>
+        </br>
+          </br>🌬️ </br>  15km/h
+        </br>
+      </br> </div>
+        
+        <div class="col">Tuesday
+        </br>
+        🌡️
+              </br> 18 °C
+               </br>
+               </br>🌧️
+          </br> 23%
+        </br>
+        </br>
+          </br>🌬️ </br>  15km/h
+        </br>
+      </br>  </div>
+
+        </div>
+    </div>
+  </div>
+</div>
+        </div>
+        
+    <script src="css/index.js"></script>
+  </body>
+</html>
+
