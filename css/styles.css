@@ -3,6 +3,7 @@ header {
 }
 body {
   background-color: white;
+  font-family: "Oldenburg", cursive;
 }
 h4 {
   color: black;
@@ -15,7 +16,7 @@ h4 {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   margin: 20px 150px 150px 150px;
   max-width: 800px;
-  padding: 20px 50px;
+  padding: 20px 20px;
   background-color: rgb(207, 194, 194);
 }
 #weather-conditions {
@@ -32,7 +33,7 @@ h4 {
 }
 .card-body {
   padding: 10px;
-  margin-left: 30px;
+  margin-left: 40px;
   margin-right: 1px;
 }
 .col {
