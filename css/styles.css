@@ -1,10 +1,20 @@
 header {
   text-align: center;
 }
-body {
-  background-color: white;
-  font-family: "Oldenburg", cursive;
+@media screen and (min-width: 450px) {
+  body {
+    background-color: white;
+    font-family: "Oldenburg", cursive;
+  }
 }
+
+@media screen and (min-width: 720px) {
+  body {
+    background-color: white;
+    font-family: "Oldenburg", cursive;
+  }
+}
+
 h4 {
   color: black;
 }
