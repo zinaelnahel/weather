@@ -28,9 +28,20 @@ h4 {
   right: 250px;
 }
 
+#current-temperature {
+  display: inline;
+}
+#icon {
+  float: left;
+}
+#description {
+  display: inline;
+  position: relative;
+}
 .row {
   padding: 0px 2px;
 }
+
 .card-body {
   padding: 10px;
   margin-left: 40px;

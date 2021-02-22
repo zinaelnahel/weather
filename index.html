@@ -42,16 +42,22 @@
               </h5>
             </div>
             <h6> Today </h6>
-            <p class="card-text">🌡️
-                <span class="temperature" id="current-temperature">19</span>
+            <p class="card-text"> 
+               <div class="icon-weather">
+<img src="http://openweathermap.org/img/wn/01d@2x.png"  id="icon"/>
+              <h1> <strong> <span class="temperature" id="current-temperature" >19</span></strong></h1>
+              </div>
                 <span class="units"id="description">
                   <a href="#" id="celsius-button">°C</a> |
                   <a href="#" id="fahrenheit-button">°F</a></span>
+                   <div class="col-12">
                 <div class="conditions" id="weather-conditions">
-                <ul><li></br></br><em>precipitation 23% <li>wind  15km/h</em></li>
-         </br> </li>
+                <ul>
+     <li>Humidity: <span id="humidity"></span>%</li>
+      <li>Wind: <span id="wind"></span>km/hr</li>
         </ul> 
         </div>
+      </div>
       </div>
             </p>
           </br>
