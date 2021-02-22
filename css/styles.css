@@ -13,7 +13,7 @@ h4 {
 }
 .app-container {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-  margin: 50px 150px 150px 150px;
+  margin: 20px 150px 150px 150px;
   max-width: 800px;
   padding: 20px 50px;
   background-color: rgb(207, 194, 194);
