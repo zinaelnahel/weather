@@ -9,11 +9,13 @@
   </head>
   <body>
     <div class="container">
+      <div class="app-container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-12">
        </br> 
+       <header>
     <h1>
-    <img class="Ra" src="images/Ra.jpg" alt="Ra god" width="150"/>  <img class="logo" src="images/logo_small.png" alt="logo" width="120"/>
+    <img class="Ra" src="images/Ra.jpg" alt="Ra god" width="100"/>  <img class="logo" src="images/logo_small.png" alt="logo" width="100"/>
     <h4><em>May the sun god be in your favor !</em></h4>
           <br>
           <br>
@@ -22,89 +24,67 @@
         <input
         type="submit"
         value="Search"/>
-        <button id="btnLocation">Current Location</button></span>
-    
+      <button id="btnLocation">Current Location</button></span>
          </form>
           </br>
   </br>
-  <div class="row row-cols-md-2 row-cols-md-3 g-1">
-      <div class="col">
-        
-        <div class="card h-100">
-     
-          <div class="card-body">
-            <h5 class="card-title" id= "cityName">Cairo/Egypt 
-            </br>
-            </br></h5>
+  </header>
+     <div class="card">
+  <div class="row">
+    </div>
+    <div class="col-md-12">
+      <div class="card-body">
+          <div class="col-12">
+    <div class="current-city">
+              <h5 id="cityName">Cairo
+              </h5>
+            </div>
             <h6> Today </h6>
             <p class="card-text">🌡️
                 <span class="temperature" id="current-temperature">19</span>
                 <span class="units"id="description">
                   <a href="#" id="celsius-button">°C</a> |
-                  <a href="#" id="fahrenheit-button">°F</a></span
-                >
-            </br>🌧️
-          </br> precipitation 23%
-        </br>
-          </br>🌬️ </br> wind  15km/h
-        </br>
-         </br> 
-            </p>
-          </div>
+                  <a href="#" id="fahrenheit-button">°F</a></span>
+                <div class="conditions" id="weather-conditions">
+                <ul><li></br></br><em>precipitation 23% <li>wind  15km/h</em></li>
+         </br> </li>
+        </ul> 
         </div>
       </div>
-    <div class="card">
-  <div class="row">
-    </div>
-    <div class="col-md-12">
-      <div class="card-body">
-        <h5 class="card-title">Forecast</h5>
+            </p>
+          </br>
+           <h6>Forecast</h6>
+        <div class="lower">
         <p class="card-text"> 
         <div class="row">
         <div class="col">Sunday 
         </br>
         🌡</br> 18 °C
-               </br>
-               </br>🌧️
-          </br> 23%
-        </br>
-        </br>
-          </br>🌬️ </br>  15km/h
-        </br>
-      </br> 
         </div>
-        
         <div class="col">Monday
         </br>
         🌡️
-              </br> 19 °C
-               </br>
-               </br>🌧️
-          </br> 23%
-        </br>
-        </br>
-          </br>🌬️ </br>  15km/h
-        </br>
-      </br> </div>
-        
+         </br> 19 °C
+          </div>
         <div class="col">Tuesday
         </br>
         🌡️
-              </br> 18 °C
-               </br>
-               </br>🌧️
-          </br> 23%
-        </br>
-        </br>
-          </br>🌬️ </br>  15km/h
-        </br>
-      </br>  </div>
-
+        </br> 18 °C
         </div>
-    </div>
-  </div>
+        <div class="col">Wednesday 
+        </br>
+        🌡</br> 18 °C
+        </div>
+         <div class="col">Thursday
+        </br>
+        🌡</br> 18 °C
+        </div>
 </div>
         </div>
+          </div>
+        </div>
+          </div>
+          </div>
      <footer>hosted with <a href="https://www.netlify.com">Netlify</a> <br>
     <a href="https://github.com/zinaelnahel/weather">Open-Source Code</a> by Zina El Nahel  </footer>    
     <script src="css/index.js"></script>
