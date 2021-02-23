@@ -25,14 +25,15 @@ h4 {
   max-width: 800px;
   padding: 20px 20px;
   background-color: rgb(207, 194, 194);
+  max-width: 567px;
 }
 #weather-conditions {
   float: right;
-  width: 30%;
-  margin-right: 10px;
+  width: 50%;
+  margin-left: 100px;
   position: relative;
   bottom: 120px;
-  right: 250px;
+  right: 20px;
 }
 
 #current-temperature {
@@ -57,9 +58,28 @@ h4 {
 .col {
   padding: 11px;
 }
-.lower {
-  text-align: left;
-}
+
 ul {
   list-style-type: none;
+}
+
+.weather-forecast {
+  margin-top: 10px;
+}
+
+.weather-forecast h3 {
+  color: rgb(186, 186, 186);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 7px;
+}
+
+.weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
 }
