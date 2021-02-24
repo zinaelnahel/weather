@@ -24,10 +24,10 @@
           <br>
          <form id="search-form">
         <input type="text" placeholder="Enter a city" id="city" />
-        <input
+        <input id="searchCity"
         type="submit"
         value="Search"/>
-      <button id="btnLocation">Current Location</button></span>
+      <button id="btnLocation">📍</button></span>
          </form>
           </br>
   </br>
@@ -46,7 +46,7 @@
             <p class="card-text"> 
                <div class="icon-weather">
 <img src="http://openweathermap.org/img/wn/01d@2x.png"  id="icon"/>
-              <h1> <strong> <span class="temperature" id="current-temperature" >19</span></strong></h1>
+              <h1> <strong> <span class="temperature" id="current-temperature" >18</span></strong></h1>
               </div>
                 <span class="units"id="description">
                   <a href="#" id="celsius-button"class="active">°C</a> |
@@ -67,10 +67,11 @@
           <div class="row weather-forecast" id="forecast"></div>
         </div>
         </br>
-          </div>
+          </div> </br>
+          <small class="author">
      <footer>hosted with <a href="https://www.netlify.com">Netlify</a> <br>
     <a href="https://github.com/zinaelnahel/weather">Open-Source Code</a> by Zina El Nahel  </footer>    
-    <script src="css/index.js"></script>
+    <script src="css/index.js"></script></small>
   </body>
 </html>
 

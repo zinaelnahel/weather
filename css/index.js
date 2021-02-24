@@ -34,6 +34,8 @@ function displayWeather(response) {
 let windElement = document.querySelector("#wind");
    windElement.innerHTML = Math.round(response.data.wind.speed);
    let iconElement = document.querySelector("#icon");
+
+  celsiusTemperature = response.data.main.temp;
   iconElement.setAttribute(
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
@@ -87,10 +89,16 @@ function displayCelsiusTemperature(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
+
 let celsiusTemperature = null;
+
 
 let fahrenheitLink = document.querySelector("#fahrenheit-button");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 let celsiusLink = document.querySelector("#celsius-button");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
+
+
+
+search("Cairo");
