@@ -41,8 +41,7 @@
     <div class="current-city">
               <h5 id="cityName">Cairo
               </h5>
-            </div>
-            <h6> Today </h6>
+            <small><span id="date"></span></small>
             <p class="card-text"> 
                <div class="icon-weather">
 <img src="http://openweathermap.org/img/wn/01d@2x.png"  id="icon"/>
@@ -53,25 +52,29 @@
                   <a href="#" id="fahrenheit-button">°F</a></span>
                    <div class="col-12">
                 <div class="conditions" id="weather-conditions">
-                <ul>
+        <small> <em><ul>
      <li>Humidity: <span id="humidity"></span>%</li>
       <li>Wind: <span id="wind"></span>km/hr</li>
         </ul> 
+            </em> </small> 
         </div>
       </div>
       </div>
             </p>
           </br>
            <h6>Forecast</h6>
-      </div>
-          <div class="row weather-forecast" id="forecast"></div>
-        </div>
+           <div class="container">
+      <div class="weather-container">
+            <div class="col-md-12">
+    <div class="forecast">
+      <div class="row weatherForecast" id="daily-forecast"></div>
+    </div></div> </div></div>
         </br>
-          </div> </br>
-          <small class="author">
+        </br></div></div></div></div>
+         <div><small class="author">
      <footer>hosted with <a href="https://www.netlify.com">Netlify</a> <br>
     <a href="https://github.com/zinaelnahel/weather">Open-Source Code</a> by Zina El Nahel  </footer>    
-    <script src="css/index.js"></script></small>
+    <script src="css/index.js"></script></small></div> 
   </body>
 </html>
 
