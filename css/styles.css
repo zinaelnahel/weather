@@ -90,10 +90,6 @@ ul {
   height: 48px;
   width: 48px;
 }
-.units.active {
-  color: red;
-  cursor: default;
-}
 
 .units.active:hover {
   text-decoration: none;
@@ -123,23 +119,27 @@ button:hover {
 .author a:hover {
   color: #000000;
 }
+.weather-temperature a {
+  color: grey;
+}
 .weather-temperature .active {
   color: rgb(33, 33, 33);
   cursor: default;
   text-decoration: none;
 }
-
 .weather-temperature .active:hover {
   text-decoration: underline;
+  color: black;
 }
 
-#fahrenheit-button {
+#fahrenheit-button .active {
   color: #636363;
   cursor: default;
   text-decoration: none;
 }
-#fahrenheit-button:hover {
+#fahrenheit-button .active:hover {
   text-decoration: underline;
+  color: black;
 }
 
 #search-form {
