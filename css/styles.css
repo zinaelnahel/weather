@@ -148,10 +148,11 @@ button:hover {
   border-radius: 10px;
 }
 .weatherForecast {
-  font-size: 10px;
+  font-size: 12px;
 }
 #weekDay {
-  font-size: medium;
+  font-size: 15px;
+  text-align: center;
 }
 .maxTemp {
   color: black;
@@ -165,4 +166,5 @@ ul {
 li {
   list-style: none;
   font-size: 15px;
+  text-align: center;
 }

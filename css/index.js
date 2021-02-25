@@ -93,8 +93,8 @@ function displayDailyForecast(response) {
     forecastElement.innerHTML += ` 
     <div class="col-2">
       <li class="weatherForecast" id="weekDay">${formatDayForecast(forecast.dt * 1000)}</li>
-      <li><img src="http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png" width="90%"/></li>
-      <li class="weatherForecast">${Math.round(forecast.main.temp_max)}º/${Math.round(forecast.main.temp_min)}º</li>
+      <li><img src="http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png" width="80%"/></li>
+      <li class="weatherForecast"> ${Math.round(forecast.main.temp)} ºC</li>
     </div>`;
   }
 }
