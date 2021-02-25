@@ -128,7 +128,6 @@ button:hover {
   text-decoration: none;
 }
 .weather-temperature .active:hover {
-  text-decoration: underline;
   color: black;
 }
 
@@ -138,7 +137,6 @@ button:hover {
   text-decoration: none;
 }
 #fahrenheit-button .active:hover {
-  text-decoration: underline;
   color: black;
 }
 
