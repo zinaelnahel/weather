@@ -32,8 +32,7 @@ function formatHours(timestamp) {
 function search(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#city");
-  let h5 = document.querySelector("h5");
-  h5.innerHTML = `${searchInput.value}`;
+ 
 }
 
 let form = document.querySelector("#search-form");
