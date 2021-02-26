@@ -6,75 +6,71 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Oldenburg&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Oldenburg&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  </head>
-  <body>
+</head>
+<body>
     <div class="container">
-      <div class="app-container">
-      <div class="row">
-        <div class="col-12">
-       </br> 
-       <header>
+    <div class="app-container">
+    <div class="row">
+    <div class="col-12">
+    </br> 
+    <header>
     <h1>
     <img class="Ra" src="images/Ra.jpg" alt="Ra god" width="100"/>  <img class="logo" src="images/logo_small.png" alt="logo" width="100"/>
+    </h1>
+    </br> 
     <h4><em><small>May the sun god be in your favor !</small></em></h4>
-          <br>
-          <br>
-         <form id="search-form">
-        <input type="text" placeholder="Enter a city" id="city" />
-        <input id="searchCity"
-        type="submit"
-        value="Search"/>
-      <button id="btnLocation">📍</button>
-         </form>
-          </br>
-  </br>
-  </header>
-     <div class="card">
-  <div class="row">
-    </div>
+    <br>
+<form id="search-form">
+    <input type="text" placeholder="Enter a city" id="city" />
+    <input id="searchCity" type="submit" value="Search"/>
+    <button id="btnLocation">📍</button>
+</form>
+    </br>
+    </header>
+    <div class="card">
+    <div class="row">
     <div class="col-md-12">
-      <div class="card-body">
-          <div class="col-12">
+    <div class="card-body">
+    <div class="col-12">
     <div class="current-city">
-              <h5 id="cityName"></h5>
+            <h5 id="cityName"></h5>
             <small>Last updated on <span id="date"></span></small>
             <p class="card-text"> 
-               <div class="icon-weather">
-<img src="http://openweathermap.org/img/wn/01d@2x.png"  id="icon"/>
-              <h1> <strong> <span class="temperature" id="current-temperature" >18</span></strong></h1>
+  <div class="icon-weather">
+            <img src="http://openweathermap.org/img/wn/01d@2x.png"  id="icon"/>
+            <h1> <strong> <span class="temperature" id="current-temperature" >18</span></strong></h1>
               </div>
-               <div class="clearfix weather-temperature">
-                <span class="units"id="description">
-                  <a href="#" id="celsius-button"class="active">°C</a> |
-                  <a href="#" id="fahrenheit-button">°F</a></span>
-                  </div>
-                   <div class="col-12">
-                <div class="conditions" id="weather-conditions">
-        <em><small><ul></br>
-     <li>Humidity: <span id="humidity"></span>%</li>
-      <li>Wind: <span id="wind"></span>km/hr</li>
-        </ul> </small></em> 
-        </div>
-         </div>
+  <div class="clearfix weather-temperature">
+            <span class="units"id="description">
+            <a href="#" id="celsius-button"class="active">°C</a> |
+            <a href="#" id="fahrenheit-button">°F</a></span>
+              </div>
+  <div class="col-12">
+  <div class="conditions" id="weather-conditions">
+            <em><small><ul></br>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span>km/hr</li>
+            </ul> </small></em> 
       </div>
       </div>
-            </p>
-          </br>
+      </div>
+      </div>
+       </p>
+       </br>
            <h6>Forecast</h6>
-           <div class="container">
-      <div class="weather-container">
-            <div class="col-md-12">
+    <div class="container">
+    <div class="weather-container">
+    <div class="col-md-12">
     <div class="forecast">
-      <div class="row weatherForecast" id="daily-forecast"></div>
+    <div class="row weatherForecast" id="daily-forecast"></div>
     </div></div> </div></div>
         </br>
         </br></div></div></div></div>
          <div><small class="author">
      <footer>hosted with <a href="https://www.netlify.com">Netlify</a> <br>
-    <a href="https://github.com/zinaelnahel/weather">Open-Source Code</a> by Zina El Nahel  </footer>    
+    <a href="https://github.com/zinaelnahel/weather">Open-Source Code</a> by Zina El Nahel</footer>    
     <script src="css/index.js"></script></small></div> 
   </body>
 </html>

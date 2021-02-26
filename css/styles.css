@@ -11,6 +11,19 @@ body {
 h4 {
   color: black;
 }
+ul {
+  list-style-type: none;
+}
+li {
+  list-style: none;
+  font-size: 15px;
+  text-align: center;
+}
+button:hover {
+  background: rgb(182, 179, 179);
+  color: white;
+  cursor: pointer;
+}
 
 .card {
   background-color: #ebbf7d;
@@ -34,25 +47,7 @@ h4 {
   margin-right: 600px;
   max-width: 567px;
 }
-#weather-conditions {
-  float: right;
-  width: 50%;
-  margin-left: 100px;
-  position: relative;
-  bottom: 120px;
-  right: 1px;
-}
 
-#current-temperature {
-  display: inline;
-}
-#icon {
-  float: left;
-}
-#description {
-  display: inline;
-  position: relative;
-}
 .row {
   padding: 0px 2px;
 }
@@ -66,14 +61,6 @@ h4 {
   padding: 11px;
 }
 
-ul {
-  list-style-type: none;
-}
-
-.weather-forecast {
-  margin-top: 10px;
-}
-
 .weather-forecast h3 {
   color: rgb(186, 186, 186);
   font-size: 14px;
@@ -82,6 +69,7 @@ ul {
   height: 15px;
   line-height: 15px;
   padding-top: 7px;
+  margin-top: 10px;
 }
 
 .weather-forecast img {
@@ -94,22 +82,13 @@ ul {
 .units.active:hover {
   text-decoration: none;
 }
-button:hover {
-  background: rgb(182, 179, 179);
-  color: white;
-  cursor: pointer;
-}
+
 .submit:hover {
   background: rgb(182, 179, 179);
   color: white;
   cursor: pointer;
 }
 
-#searchCity:hover {
-  background: rgb(182, 179, 179);
-  color: white;
-  cursor: pointer;
-}
 .author a {
   color: #636363;
   text-decoration: underline;
@@ -130,19 +109,11 @@ button:hover {
 .weather-temperature .active:hover {
   color: black;
 }
-
-#fahrenheit-button .active {
-  color: #636363;
-  cursor: default;
-  text-decoration: none;
-}
-#fahrenheit-button .active:hover {
+.maxTemp {
   color: black;
 }
-
-#search-form {
-  width: max-content;
-  margin-left: 100px;
+.minTemp {
+  color: #636363;
 }
 .forecast {
   padding: 10px;
@@ -153,21 +124,43 @@ button:hover {
 .weatherForecast {
   font-size: 12px;
 }
+
+#fahrenheit-button .active {
+  color: #636363;
+  cursor: default;
+  text-decoration: none;
+}
+#fahrenheit-button .active:hover {
+  color: black;
+}
+#searchCity:hover {
+  background: rgb(182, 179, 179);
+  color: white;
+  cursor: pointer;
+}
+#search-form {
+  width: max-content;
+  margin-left: 100px;
+}
 #weekDay {
   font-size: 15px;
   text-align: center;
 }
-.maxTemp {
-  color: black;
+#weather-conditions {
+  float: right;
+  width: 50%;
+  margin-left: 100px;
+  position: relative;
+  bottom: 120px;
+  right: 1px;
 }
-.minTemp {
-  color: #636363;
+#current-temperature {
+  display: inline;
 }
-ul {
-  list-style-type: none;
+#icon {
+  float: left;
 }
-li {
-  list-style: none;
-  font-size: 15px;
-  text-align: center;
+#description {
+  display: inline;
+  position: relative;
 }
